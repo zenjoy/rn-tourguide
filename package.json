@@ -7,6 +7,10 @@
   "react-native": "src/index",
   "source": "src/index",
   "private": false,
+  "files": [
+    "src",
+    "lib"
+  ],
   "scripts": {
     "start": "yarn config:dev && expo start -c",
     "start:web": "yarn config:dev && expo start -c -w",

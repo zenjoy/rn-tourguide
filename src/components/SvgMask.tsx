@@ -76,7 +76,7 @@ export class SvgMask extends Component<Props, State> {
       },
       size: props.size,
       position: props.position,
-      opacity: new Animated.Value(0),
+      opacity: new Animated.Value(1),
       animation: new Animated.Value(0),
       previousPath: this.firstPath,
     }
